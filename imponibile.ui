@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Imponibile - Biagio Raucci</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>30</x>
@@ -127,6 +127,22 @@
     <hint type="destinationlabel">
      <x>383</x>
      <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lE_totFattura</sender>
+   <signal>returnPressed()</signal>
+   <receiver>Form</receiver>
+   <slot>pB_valutaClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>152</y>
     </hint>
    </hints>
   </connection>
