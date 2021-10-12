@@ -146,6 +146,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>lE_aliquota</sender>
+   <signal>returnPressed()</signal>
+   <receiver>Form</receiver>
+   <slot>pB_valutaClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>172</x>
+     <y>61</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>176</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>pB_valutaClick()</slot>
